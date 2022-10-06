@@ -1,14 +1,14 @@
 1. paste the whole AIS folder to D: drive. (mandatory)
 --------------------------------------------------------
-2. change the given mozilla_firefox/internet_explorer properties that is belong to AIS:
+2. change HOSTNAME from given mozilla_firefox/internet_explorer properties of AIS:
 
-replace 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_firefox or Internet_Explorer property's target section. 
+replace HOSTNAME 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_firefox or Internet_Explorer property's 'target' section. 
 
 for internet_explorer:
-replace your HOST-NAME: "C:\Program Files\Internet Explorer\iexplore.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
+"C:\Program Files\Internet Explorer\iexplore.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 
 for mozilla_firefox:
-replace your HOST-NAME: "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
+"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 
 (mandatory)
 --------------------------------------------------------
