@@ -1,0 +1,19 @@
+Load calendar90.pll and stndrd20.olb into form builder.
+expand object libraries. double click on components
+Drag the CALENDAR into form module.
+Drag Program Units under CALENDAR90 of PL/SQL Libraries into Program unit of form module.
+
+take button for invoking calender and put following code inside trigger and ajdust the code
+
+-------------BTN CODE ----------------------------------------------------------
+DECLARE
+	XP NUMBER;
+	YP NUMBER;
+BEGIN
+	XP := GET_ITEM_PROPERTY('CALENDAR_EXAMPLE.DOB',X_POS);
+	YP := GET_ITEM_PROPERTY('CALENDAR_EXAMPLE.DOB',Y_POS);
+DATE_LOV.GET_DATE(SYSDATE,'CALENDAR_EXAMPLE.DOB',XP, YP,'FROM DATE','OK','CANCEL',TRUE,FALSE,FALSE);
+END;
+
+--------------------FOR THE FMB CAL_EXAMPLE-------------
+CREATE TABLE CALENDAR_EXAMPLE (ID NUMBER, DOB DATE);

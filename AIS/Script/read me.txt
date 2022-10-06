@@ -1,0 +1,8 @@
+1. pc name must be changed from browser properties
+1. must have Demo [hr] schema, 
+2. Setup Calender
+3. Setup Picture
+4. Setup stand alone Report Server
+
+>> Pick a picture in forms from java applet and save
+
