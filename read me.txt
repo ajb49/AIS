@@ -17,17 +17,18 @@ for mozilla_firefox:
 --------------------------------------------------------
 3. check hr(Demo) schema is in oracle database already. (mandatory)
 --------------------------------------------------------
-4. it might Have Calender feature if not, you can add it using CALENDER_11G_FRM folder.(optional)
+4. it might Have Calender feature, if not, it can be added it by using CALENDER_11G_FRM folder or other sources.(optional)
 --------------------------------------------------------
-5. it might have Image feature if not, no image is shown but app runs perfectly without image though.(optional)
+5. it might have Image feature, if not, no image is shown but the app will run perfectly without image though.(optional)
 --------------------------------------------------------
-6. it might have stand alone/in process Report Server or report will not run (#servername: rpt_svr). (optional)
+6. To preview reports it might have stand alone/in process Report Server or report will not run (# report servername: rpt_svr). (optional)
 --------------------------------------------------------
-7. open sql*plus from sys or any schema and run the below code: (mandatory)	
+7. Open sql*plus from sys or any schema and run the below code: (mandatory)	
 
-@D:\AIS\Script\PROJECT_INSTALLATION.sql
+SQL> @D:\AIS\Script\PROJECT_INSTALLATION.sql
 --------------------------------------------------------
-8. run the given mozilla_firefox/internet_explorer and the credentials are given below:
+8. run the given mozilla_firefox/internet_explorer and use the credentials are given below:
 	username: project_ac
 	password: ac
 	database: orcl
+															--Thanks for patience
