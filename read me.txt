@@ -1,0 +1,30 @@
+1. paste the whole AIS folder to D: drive. (mandatory)
+--------------------------------------------------------
+2. change the given mozilla_firefox/internet_explorer properties that is belong to AIS:
+
+replace 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_firefox or Internet_Explorer property's target section. 
+
+for internet_explorer:
+replace your HOST-NAME: "C:\Program Files\Internet Explorer\iexplore.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
+
+for mozilla_firefox:
+replace your HOST-NAME: "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
+
+(mandatory)
+--------------------------------------------------------
+3. Check you have hr(Demo) schema in oracle database already. (mandatory)
+--------------------------------------------------------
+4. it might Have Calender feature if not, you can add it using CALENDER_11G_FRM folder.(optional)
+--------------------------------------------------------
+5. it might have Image feature if not, no image is shown but app runs perfectly without image though.(optional)
+--------------------------------------------------------
+6. it might have stand alone/in process Report Server or report will not run (#servername: rpt_svr). (optional)
+--------------------------------------------------------
+7. open sql*plus from sys or any schema and run the below code: (mandatory)	
+
+@D:\AIS\Script\PROJECT_INSTALLATION.sql
+
+8. run the given mozilla_firefox/internet_explorer and the credential are:
+	userid: project_ac
+	password: ac
+	database: orcl
