@@ -1,7 +1,7 @@
 # oracle
 1. paste the whole AIS folder to D: drive. (mandatory)
 --------------------------------------------------------
-2. please replace 'rjbr' to 'YOUR-DESKTOP-NAME' from Mozilla_firefox & Internet_Explorer property's target. (optional)
+2. please replace 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_firefox & Internet_Explorer property's target. (optional)
 
 "C:\Program Files\Internet Explorer\iexplore.exe" http://rjbr:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 replace to: "C:\Program Files\Internet Explorer\iexplore.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
@@ -19,7 +19,7 @@ replace to: "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DES
 --------------------------------------------------------
 7. open sqlplus from sys or any schema and run the code: (mandatory)
 				@D:\AIS\Script\PROJECT_INSTALLATION.sql
-8. run mozilla/internet_explorer
+8. run the given mozilla/internet_explorer
 	userid: project_ac
 	password: ac
 	database: orcl
