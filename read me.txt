@@ -1,7 +1,7 @@
 ------------------------------Oracle Fustion Middleware 11g-------------------------------
 
 
-1. paste the whole AIS folder to D: drive. (mandatory)
+1. paste the whole AIS folder to D: drive. (mandatory)***
 --------------------------------------------------------
 2. change HOSTNAME from given Mozilla_FireFox.lnk/Internet_Explorer.lnk properties of AIS:
 
@@ -13,9 +13,9 @@ OR
 for Mozilla_FireFox.lnk:
 "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 
-																(mandatory)
+																(mandatory)***
 --------------------------------------------------------
-3. check hr(Demo) schema is in oracle database already or run below code from sys user. (mandatory)
+3. check hr(Demo) schema is in oracle database already or run below code from sys user. (mandatory)***
 SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
 --------------------------------------------------------
 4. it has Calender feature, if your Form 11g does not have, it can be added it from CALENDER_11G_FRM folder or other sources.(optional)
@@ -24,7 +24,7 @@ SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
 --------------------------------------------------------
 6. To preview reports it might have stand alone/in process Report Server or report will not run (# report server name: rpt_svr). (optional)
 --------------------------------------------------------
-7. Open sql*plus from sys or any schema and run the below code: (mandatory)	
+7. Open sql*plus from sys or any schema and run the below code: (mandatory)***	
 
 SQL> @D:\AIS\Script\PROJECT_INSTALLATION.sql
 --------------------------------------------------------
