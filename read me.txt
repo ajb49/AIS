@@ -9,19 +9,20 @@ replace HOSTNAME 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_FireFox.lnk/In
 
 for Internet_Explorer.lnk:
 "C:\Program Files\Internet Explorer\iexplore.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
-
+OR
 for Mozilla_FireFox.lnk:
 "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 
 																(mandatory)
 --------------------------------------------------------
-3. check hr(Demo) schema is in oracle database already. (mandatory)
+3. check hr(Demo) schema is in oracle database already or run below code from sys user. (mandatory)
+SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
 --------------------------------------------------------
-4. it might Have Calender feature, if not, it can be added it by using CALENDER_11G_FRM folder or other sources.(optional)
+4. it has Calender feature, if your Form 11g does not have, it can be added it from CALENDER_11G_FRM folder or other sources.(optional)
 --------------------------------------------------------
-5. it might have Image feature, if not, no image is shown but the app will run perfectly without image though.(optional)
+5. it has Image feature, if your Form 11g does not have, no image is shown but the app will run perfectly without image.(optional)
 --------------------------------------------------------
-6. To preview reports it might have stand alone/in process Report Server or report will not run (# report servername: rpt_svr). (optional)
+6. To preview reports it might have stand alone/in process Report Server or report will not run (# report server name: rpt_svr). (optional)
 --------------------------------------------------------
 7. Open sql*plus from sys or any schema and run the below code: (mandatory)	
 
@@ -32,3 +33,4 @@ SQL> @D:\AIS\Script\PROJECT_INSTALLATION.sql
 	password: ac
 	database: orcl
 															--Thanks for patience
+--------------------------------when only mandatory instructions are done,hopefully the app runs well-------------------------------------------------
