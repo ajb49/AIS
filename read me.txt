@@ -3,17 +3,17 @@
 
 1. paste the whole AIS folder to D: drive. (mandatory)
 --------------------------------------------------------
-2. change HOSTNAME from given mozilla_firefox/internet_explorer properties of AIS:
+2. change HOSTNAME from given Mozilla_FireFox.lnk/Internet_Explorer.lnk properties of AIS:
 
-replace HOSTNAME 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_firefox or Internet_Explorer property's 'target' section. 
+replace HOSTNAME 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_FireFox.lnk/Internet_Explorer.lnk property's 'target' section. 
 
-for internet_explorer:
+for Internet_Explorer.lnk:
 "C:\Program Files\Internet Explorer\iexplore.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 
-for mozilla_firefox:
+for Mozilla_FireFox.lnk:
 "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 
-(mandatory)
+																(mandatory)
 --------------------------------------------------------
 3. check hr(Demo) schema is in oracle database already. (mandatory)
 --------------------------------------------------------
