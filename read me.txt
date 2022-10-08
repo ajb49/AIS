@@ -28,7 +28,7 @@ SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
 
 SQL> @D:\AIS\Script\PROJECT_INSTALLATION.sql
 --------------------------------------------------------
-8. run the given mozilla_firefox/internet_explorer and use the credentials are given below:
+8. run the given Mozilla_FireFox.lnk/Internet_Explorer.lnk and the credentials are given below:
 	username: project_ac
 	password: ac
 	database: orcl
