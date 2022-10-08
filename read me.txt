@@ -3,7 +3,7 @@
 
 1. paste the whole AIS folder to D: drive. (mandatory)***
 --------------------------------------------------------
-2. change HOSTNAME from given Mozilla_FireFox.lnk/Internet_Explorer.lnk properties of AIS:
+2. change HOSTNAME from Mozilla_FireFox.lnk/Internet_Explorer.lnk properties of AIS:
 
 replace HOSTNAME 'rjbr' to 'YOUR-DESKTOP-NAME' from given Mozilla_FireFox.lnk/Internet_Explorer.lnk property's 'target' section. 
 
@@ -28,7 +28,7 @@ SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
 
 SQL> @D:\AIS\Script\PROJECT_INSTALLATION.sql
 --------------------------------------------------------
-8. run the given Mozilla_FireFox.lnk/Internet_Explorer.lnk and the credentials are given below:
+8. run Mozilla_FireFox.lnk/Internet_Explorer.lnk and the credentials are given below:
 	username: project_ac
 	password: ac
 	database: orcl
