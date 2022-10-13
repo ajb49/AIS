@@ -5,7 +5,7 @@
 --------------------------------------------------------
 2. Paste the whole AIS folder to D: drive. (mandatory)***
 --------------------------------------------------------
-3. Go to Mozilla_FireFox.lnk/Internet_Explorer.lnk properties:
+3. Mozilla_FireFox.lnk/Internet_Explorer.lnk properties:
 --------------------------------------------------------
 4. Replace HOSTNAME 'rjbr' to 'YOUR-DESKTOP-NAME' from TARGET section. 
 
@@ -16,7 +16,7 @@
 		"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" http://YOUR-DESKTOP-NAME:9001/forms/frmservlet?form=D:\AIS\Menu_module\FRONTED_MODULE.fmx
 																		(mandatory)***
 --------------------------------------------------------
-5. Go to sql*plus and run the code from sys or any schema: (mandatory)***	
+5. sql*plus and run the code from sys or any schema: (mandatory)***	
 		SQL> @D:\AIS\Script\PROJECT_INSTALLATION.sql
 --------------------------------------------------------
 6. To preview reports it might have stand alone/in process Report Server or report will not run (# report server name: rpt_svr). (optional)
