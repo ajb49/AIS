@@ -28,8 +28,8 @@
 							username: project_ac
 							password: ac
 --------------------------------------------------------
-9. it has Calender feature, if your Form 11g does not have, it can be added by using CALENDER_11G_FRM folder or other sources.(optional)
+9. It has Calender feature, if your Form 11g does not have, it can be added by using CALENDER_11G_FRM folder or other sources.(optional)
 --------------------------------------------------------
-10. it has Image feature, if your Form 11g does not have, no image will be shown but the app will run perfectly without image.(optional)
+10. It has Image feature, if your Form 11g does not have, no image will be shown but the app will run perfectly without image.(optional)
 --------------------------------------------------------
 															--Thank you
