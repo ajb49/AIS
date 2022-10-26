@@ -1,9 +1,9 @@
 ------------------------------Oracle Fustion Middleware 11g-------------------------------
 /////////////IF only mandatory instructions are done,hopefully the app runs well////////////////
-1. Check hr(Demo) schema is in oracle database already or run below code from sys user. (mandatory)***
+1. Make sure hr(Demo) schema is in oracle database already or run below code from sys user. (mandatory)***
 		SQL> ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
 --------------------------------------------------------
-2. Paste the whole AIS folder to D: drive. (mandatory)***
+2. Make sure D: drive is available & Paste the whole AIS folder to D: drive. (mandatory)***
 --------------------------------------------------------
 3. Mozilla_FireFox.lnk/Internet_Explorer.lnk properties:
 --------------------------------------------------------
