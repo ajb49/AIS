@@ -1,6 +1,7 @@
 ![Image](https://github.com/user-attachments/assets/9492b063-56aa-4bb0-b7b6-cc3b229bbeab)
 ![Image](https://github.com/user-attachments/assets/7c91b459-4d49-4331-8d72-ce69d0643351)
 ![Image](https://github.com/user-attachments/assets/d46448a4-a7ba-43c0-bf7d-ffd012d7a84d)
+![Image](https://github.com/user-attachments/assets/d6a25d65-f02f-4cba-8615-23627df5f322)
 
 ------------------------------Oracle Fustion Middleware 11g-------------------------------
 /////////////IF only mandatory instructions are done,hopefully the app runs well////////////////
